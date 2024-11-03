@@ -8,12 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        forum: ["Forum", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        algerian: ["Algerian", "serif"],
+      },
+      colors:{
+        primary: "rgb(188, 166, 123)",
+        secondry:"black",
+        textColor:"#838383",
+        headings:"white",
       },
     },
   },
   plugins: [],
 };
+
 export default config;
